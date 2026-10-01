@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Page action button for Freedium",
+  "name": "Open in Freedium URL Button",
   "description": "Adds a URL button to open page in Freedium",
-  "version": "0.2",
+  "version": "0.2.1",
   "applications": {
     "gecko": {
       "id": "open_in_freedium_page_action@emvaized.dev"
@@ -14,7 +14,7 @@
     ]
   },
   "icons": {
-	  "32": "icon-new.png",
+	"32": "icon-new.png",
     "64": "icon-new.png"
   },
   "permissions": [
@@ -25,12 +25,12 @@
     "default_title": "Open in Freedium",
     "show_matches": [
       "*://medium.com/*",
-	    "*://www.nytimes.com/*",
-	    "*://www.bloomberg.com/news/articles/*"
+	"*://www.nytimes.com/*",
+	"*://www.bloomberg.com/news/articles/*"
     ],
     "hide_matches": [
       "https://medium.com/",
-	    "https://www.nytimes.com/"
+	  "https://www.nytimes.com/"
     ]
   }
 }
