@@ -1,0 +1,17 @@
+{
+    "copyUrl": {
+        "message": "Copier l'URL"
+    },
+    "copiedToClipboard": {
+        "message": "URL copiée dans le presse-papier"
+    },
+    "extensionDescription": {
+        "message": "Copier l'URL de la page actuelle en un seul clic"
+    },
+    "failedToCopyToClipboard": {
+        "message": "Échec de la copie dans le presse-papier"
+    },
+    "copyUrlHotkeyDescription": {
+        "message": "Copier l'URL de la page actuelle"
+    }
+}

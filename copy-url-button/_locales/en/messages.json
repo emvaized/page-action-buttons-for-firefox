@@ -1,0 +1,17 @@
+{
+    "copyUrl": {
+        "message": "Copy URL"
+    },
+    "copiedToClipboard": {
+        "message": "URL copied to clipboard"
+    },
+    "extensionDescription": {
+        "message": "Copy the current page URL in one click"
+    },
+    "failedToCopyToClipboard": {
+        "message": "Failed to copy URL to clipboard"
+    },
+    "copyUrlHotkeyDescription": {
+        "message": "Copy URL of the current page"
+    }
+}

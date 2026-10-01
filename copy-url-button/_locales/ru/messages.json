@@ -1,0 +1,17 @@
+{
+    "copyUrl": {
+        "message": "Копировать URL"
+    },
+    "copiedToClipboard": {
+        "message": "URL скопирован в буфер обмена"
+    },
+    "extensionDescription": {
+        "message": "Копируйте URL текущей страницы одним кликом"
+    },
+    "failedToCopyToClipboard": {
+        "message": "Не удалось скопировать в буфер обмена"
+    },
+    "copyUrlHotkeyDescription": {
+        "message": "Копировать URL текущей страницы"
+    }
+}

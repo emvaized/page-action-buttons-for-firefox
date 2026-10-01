@@ -1,0 +1,17 @@
+{
+     "copyUrl": {
+        "message": "Copiar URL"
+    },
+    "copiedToClipboard": {
+        "message": "URL copiada al portapapeles"
+    },
+    "extensionDescription": {
+        "message": "Copiar la URL de la página actual con un solo clic"
+    },
+    "failedToCopyToClipboard": {
+        "message": "No se pudo copiar la URL al portapapeles"
+    },
+    "copyUrlHotkeyDescription": {
+        "message": "Copiar la URL de la página actual"
+    }
+}
