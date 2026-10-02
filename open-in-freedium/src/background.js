@@ -1,4 +1,7 @@
-browser.pageAction.onClicked.addListener(function(t,d){
+browser.pageAction.onClicked.addListener(onClicked);
+browser.browserAction.onClicked.addListener(onClicked);
+
+function onClicked(t,d){
     if (!t.url) return
     const cur = t.url;
     const tar = 'https://freedium-mirror.cfd/' + cur;
@@ -6,4 +9,4 @@ browser.pageAction.onClicked.addListener(function(t,d){
         chrome.tabs.create({url:tar, active: !!d.modifiers[0]})
     else 
         chrome.tabs.update(t.id,{url:tar})
-});
+}
